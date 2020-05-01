@@ -34,6 +34,21 @@ namespace Email.Core.Parser
             //    .SetOperatingAssembly(assembly)
             //    .Build();
 
+            
+            //  Another way if we use the RazorLight 1.0.0 stable version
+            //  Need to add this to csproj file and templates folder to the startup project as well
+            //  <None Update="Templates\en_us\*.*">
+            //  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            //  </None>
+            //   RazorLightEngine engine = new RazorLightEngineBuilder()
+            //    .UseFileSystemProject
+            //    (Directory.GetCurrentDirectory()+@"\Templates\")
+            //                 .UseMemoryCachingProvider()
+            //    .SetOperatingAssembly(Assembly.GetExecutingAssembly())
+            //     .Build();
+
+           //return await engine.CompileRenderAsync(template+".cshtml", model);
+
 
             // Render the html using the model
             return await engine.CompileRenderAsync($"Templates.{template}.cshtml", model);
