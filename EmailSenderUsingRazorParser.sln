@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailSenderUsingRazorParser", "EmailSenderUsingRazorParser\EmailSenderUsingRazorParser.csproj", "{DB68F3C1-7258-43E6-A714-F6C892B9E578}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Email.Core.Parser", "Email.Core.Parser\Email.Core.Parser.csproj", "{B9BB60C2-40A9-41D9-B2AA-1965098C3EFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB68F3C1-7258-43E6-A714-F6C892B9E578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB68F3C1-7258-43E6-A714-F6C892B9E578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB68F3C1-7258-43E6-A714-F6C892B9E578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB68F3C1-7258-43E6-A714-F6C892B9E578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9BB60C2-40A9-41D9-B2AA-1965098C3EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9BB60C2-40A9-41D9-B2AA-1965098C3EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9BB60C2-40A9-41D9-B2AA-1965098C3EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9BB60C2-40A9-41D9-B2AA-1965098C3EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2B608DA-69CA-46C4-9627-CB8043C84D77}
+	EndGlobalSection
+EndGlobal
