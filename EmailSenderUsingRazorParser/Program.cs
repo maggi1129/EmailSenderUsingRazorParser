@@ -18,6 +18,7 @@ namespace EmailSenderUsingRazorParser
 
                 var message = new SendGridMessage();
 
+                //Set the to/from and subject using the below 
                 //message.AddTos(<to list>) or 
                 //message.SetFrom(<from email id>);
                 //message.SetSubject(<email subject>);
