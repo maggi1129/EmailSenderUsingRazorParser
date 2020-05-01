@@ -37,7 +37,7 @@ namespace Email.Core.Parser
             
             //  Another way if we use the RazorLight 1.0.0 stable version
             //  Need to add this to csproj file and templates folder to the startup project as well
-            //  <None Update="Templates\en_us\*.*">
+            //  <None Update="Templates\*.*">
             //  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
             //  </None>
             //   RazorLightEngine engine = new RazorLightEngineBuilder()
